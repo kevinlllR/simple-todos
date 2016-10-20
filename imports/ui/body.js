@@ -28,7 +28,7 @@ Template.body.helpers({
 });
 
 Template.body.events({
-  'submit .new-task'(event) {
+  'submit .new-task':(event)=> {
     // Prevent default browser form submit
     event.preventDefault();
 
